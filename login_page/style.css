@@ -1,0 +1,126 @@
+
+
+*{
+    padding: 0;
+    margin:0px;
+    font-family:"Poppins", sans-serif;
+}    
+.container{
+    display: flex;
+}
+.left{
+    width:546px;
+    height:100vh;
+    background-color: rgba(51, 51, 51, 1);
+
+}
+.left img{
+    width:212px;
+    height:212px;
+    padding-left: 167px;
+    padding-top: 120px;
+}
+.sub{
+    padding: 20px;
+}
+.left .sub h1{
+    color:rgba(251, 188, 5, 0.9)
+}
+.left .sub h2{
+    color:antiquewhite
+}
+.left .sub p{
+    color:rgba(255, 255, 255, 0.21);
+}
+.right{
+    width:974px;
+    height:100vh;
+    background-color:rgba(35, 34, 34, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-page{
+    width:470px;
+    height:430px;
+    background-color:rgba(35, 34, 34, 1);
+    /*border:2px solid white;*/
+}
+.p1{
+    font-size:40px;
+    color: rgba(251, 188, 5, 0.9);
+    margin-left: 11px;
+}
+.p2{
+    font-size: 14px;
+    margin-left:11px;
+    color:rgba(51, 51, 51, 1);
+}
+.right .input-box{
+    width:450px;
+    height:50px;
+    background-color: rgba(51, 51, 51, 1);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    border-radius: 8px;
+}
+.right .input-box input{
+width:400px;
+height:50px;
+outline: none;
+background-color: rgba(51, 51, 51, 1);
+border-radius: 8px;
+padding-left: 10px;
+font-size:16px;
+border:none;
+}
+.logo{
+    width:30px;
+    height:30px;
+    margin-left: 8px;    
+}
+button{
+    width:450px;
+    height:50px;
+    background-color: rgba(51, 51, 51, 1);
+    color:rgba(251, 188, 5, 0.9);
+    outline: none;
+    border: 0px rgba(51, 51, 51, 1);
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 11px;
+    margin-top: 15px;
+}
+.check{
+    margin-left:11px;
+    font-size: 14px;
+    color:rgba(96, 92, 92, 1);
+}
+.checkbox{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 5px;
+}
+.forgot{
+    font-size: 14px;
+    color:rgba(96, 92, 92, 1);
+    text-decoration: none;
+    margin-right: 11px;
+}
+.key{
+    color:rgba(96, 92, 92, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.m1{
+    margin-left: 15px;
+}
+.padding{
+       padding-left:50px;
+}

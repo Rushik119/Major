@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!--stylee sheets-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!--left container containing logo-->
+        <div class="left">
+            <img src="Mask group.png">
+            <div class="sub">
+                <h2 class="padding">Welcome to</h2>
+                <h1 class="padding">Pass it-A Ticket Reselling Website</h1>
+                <p class="padding">Here, you can buy and sell your movie tickets.</p>
+            </div>
+        </div>
+        <!-- Right container containing login page-->
+        <div class="right">
+            <form method="post" action="">
+                <div class="login-page">
+                    <p class="p1">Login </p>
+                    <p class="p2">Sign in to your account to continue</p>
+                    <div class="input-box">
+                        <img class="logo" src="email.svg">
+                        <input class="m1" type="email" id="email" placeholder="Enter your email address">
+                    </div>
+                    <div class="input-box">
+                        <img class="logo" src="password.svg">
+                        <input class="m1" type=" password" id="password" placeholder="Enter your password">
+                    </div>
+                    <div class="checkbox">
+                        <div class="check">
+                            <input type="checkbox" id="keepSignIn" name="keepSignIn" value="keepSignIn">
+                        <label for="keepSignIn"> Keep me signed in</label>
+                        </div>
+                        <a class="forgot" href="#">Forgot Password?</a>
+                    </div>
+    
+                    <button>Login</button> 
+                    <div class="key">
+                        <p class="or">Or</p>
+                    </div>
+                    
+                    <button>Google</button>
+                </div>
+                
+            </form>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
